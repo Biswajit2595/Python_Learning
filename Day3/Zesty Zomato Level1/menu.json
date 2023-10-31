@@ -1,0 +1,32 @@
+[
+    {
+        "dish_id": 1,
+        "dish_name": "Margherita Pizza",
+        "price": 180,
+        "availability": true
+    },
+    {
+        "dish_id": 2,
+        "dish_name": "Pasta Carbonara",
+        "price": 120,
+        "availability": true
+    },
+    {
+        "dish_id": 3,
+        "dish_name": "Chicken Tikka Masala",
+        "price": 150,
+        "availability": true
+    },
+    {
+        "dish_id": 4,
+        "dish_name": "Pasta",
+        "price": 20.0,
+        "availability": true
+    },
+    {
+        "dish_id": 5,
+        "dish_name": "Maggie",
+        "price": 50.0,
+        "availability": true
+    }
+]
