@@ -1,36 +1,51 @@
 [
     {
         "order_id": 1,
-        "customer_name": "Biswa",
+        "customer_name": "Raman",
         "dish_ids": [
-            1,
-            2
+            "1",
+            "5"
         ],
-        "order_status": "received"
+        "order_status": "received",
+        "total_price": 230.0,
+        "order_date": "02/11/2023"
     },
     {
         "order_id": 2,
-        "customer_name": "ajit",
+        "customer_name": "Biswa",
         "dish_ids": [
-            1
+            "2",
+            "4"
         ],
-        "order_status": "received"
+        "order_status": "received",
+        "total_price": 140.0,
+        "order_date": "02/11/2023",
+        "feedback": "Great"
     },
     {
         "order_id": 3,
-        "customer_name": "Kanai",
+        "customer_name": "Sam",
         "dish_ids": [
-            1
+            "1",
+            "2",
+            "5"
         ],
-        "order_status": "received"
+        "order_status": "received",
+        "total_price": 350.0,
+        "order_date": "02/11/2023",
+        "feedback": "Wonderful"
     },
     {
         "order_id": 4,
-        "customer_name": "Biswajit",
+        "customer_name": "Jim",
         "dish_ids": [
-            1,
-            3
+            "1",
+            "5",
+            "2"
         ],
-        "order_status": "ready"
+        "order_status": "delivered",
+        "total_price": 350.0,
+        "order_date": "02/11/2023",
+        "feedback": "It was great"
     }
 ]
