@@ -1,0 +1,52 @@
+{
+    "Veg Pakora": {
+        "name": "Veg Pakora",
+        "price": 50,
+        "availability": true
+    },
+    "Aloo Paratha": {
+        "name": "Aloo Paratha",
+        "price": 65,
+        "availability": true
+    },
+    "Maggie": {
+        "name": "Maggie",
+        "price": 35,
+        "availability": true
+    },
+    "Samosa": {
+        "name": "Samosa",
+        "price": 15,
+        "availability": true
+    },
+    "Aloo Thupka": {
+        "name": "Aloo Thupka",
+        "price": 30,
+        "availability": true
+    },
+    "Momo Fry": {
+        "name": "Momo Fry",
+        "price": 60,
+        "availability": true
+    },
+    "Smoothie": {
+        "name": "Smoothie",
+        "price": 50,
+        "availability": true
+    },
+    "Chowmin": {
+        "name": "Chowmin",
+        "price": 50,
+        "availability": true
+    },
+    "Dry Wai Wai": {
+        "name": "Dry Wai Wai",
+        "price": 50,
+        "availability": true
+    },
+    "Chole Bhature": {
+        "name": "Chole Bhature",
+        "price": 80,
+        "availability": true
+    }
+}
