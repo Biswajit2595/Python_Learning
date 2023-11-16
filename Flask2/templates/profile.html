@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+        button{
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        a {
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+
+    <form method="POST" action="/profile">
+        <h2>Profile</h2>
+        <p>{{ error }}</p>
+        <label for="Username">Username:</label>
+        <input type="text" name="username" value="{{user.username}}" required><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" value="{{user.email}}" disabled required><br>
+
+        <label for="password">Current Password:</label>
+        <input type="password" name="password" value="" required><br>
+
+        <label for="new_password">New Password:</label>
+        <input type="password" name="new_password" value="" required><br>
+
+        <input type="submit" value="Update">
+    </form>
+    <button >
+        <a href="/logout">Logout</a>
+    </button>
+
+
+</div>
+</body>
+</html>
+
