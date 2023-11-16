@@ -1,0 +1,65 @@
+[
+    {
+        "dish_id": "1",
+        "dish_name": "Aloo Chat",
+        "price": 25.0,
+        "availability": true,
+        "category": "Snacks"
+    },
+    {
+        "dish_id": "2",
+        "dish_name": "Samosa",
+        "price": 15.0,
+        "availability": true,
+        "category": "Snacks"
+    },
+    {
+        "dish_id": "3",
+        "dish_name": "Fried Momo",
+        "price": 50.0,
+        "availability": true,
+        "category": "Snacks"
+    },
+    {
+        "dish_id": "4",
+        "dish_name": "Coco-Cola",
+        "price": 25.0,
+        "availability": true,
+        "category": "Beverages"
+    },
+    {
+        "dish_id": "5",
+        "dish_name": "Thumbs Up",
+        "price": 25.0,
+        "availability": true,
+        "category": "Beverages"
+    },
+    {
+        "dish_id": "6",
+        "dish_name": "Lassi",
+        "price": 30.0,
+        "availability": false,
+        "category": "Beverages"
+    },
+    {
+        "dish_id": "7",
+        "dish_name": "Pastry",
+        "price": 40.0,
+        "availability": true,
+        "category": "Desserts"
+    },
+    {
+        "dish_id": "8",
+        "dish_name": "Ice-Cream",
+        "price": 30.0,
+        "availability": true,
+        "category": "Desserts"
+    },
+    {
+        "dish_id": "8",
+        "dish_name": "Cup Cake",
+        "price": 50.0,
+        "availability": true,
+        "category": "Desserts"
+    }
+]
